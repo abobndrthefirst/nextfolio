@@ -41,9 +41,9 @@ const Home: React.FC = () => {
           Tech Enthusiast, Product Manager, Entrepreneur.
         </h1>
         <p className="mt-6 text-lg">
-          I’m Your Name, a Product Manager and entrepreneur based in Riyadh. I’m obsessed with finance
-          and technology and passionate about making an impact by building products that transform
-          people's financial lives.
+          I&apos;m Your Name, a Product Manager and entrepreneur based in Riyadh. I&apos;m obsessed
+          with finance and technology and passionate about making an impact by building products
+          that transform people&apos;s financial lives.
         </p>
         {/* Social Media Links */}
         <div className="mt-6 flex justify-center gap-6">
@@ -148,7 +148,9 @@ const Home: React.FC = () => {
         {/* Newsletter Subscription Box */}
         <div className="mt-12 text-center">
           <h2 className="text-2xl font-bold mb-4">Stay up to date</h2>
-          <p className="mb-4">Get notified when I publish something new, and unsubscribe at any time.</p>
+          <p className="mb-4">
+            Get notified when I publish something new, and unsubscribe at any time.
+          </p>
           <form className="flex flex-col items-center sm:flex-row sm:justify-center">
             <input
               type="email"
