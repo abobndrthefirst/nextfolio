@@ -34,7 +34,7 @@ const Blog: FC = () => {
       <section className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold tracking-tight">Blog</h1>
         <p className="mt-6 text-lg">
-          Welcome to my blog! Here you'll find articles on finance, AI, and more.
+          Welcome to my blog! Here you&apos;ll find articles on finance, AI, and more.
         </p>
 
         {/* Blog Posts List */}
